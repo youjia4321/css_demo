@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul{
+				width: 500px;
+				height: 300px;
+				background: #cccc;
+				margin: 100px auto;
+				position: relative;
+			}
+			ul li{
+				width: 62px;
+				height: 240px;
+				list-style: none;
+				text-align: center;
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 0;
+				bottom: 0;
+				margin: auto;
+				transform-origin: bottom;
+				transition: all 2s;
+			}
+			ul li:nth-child(7){
+				background: red;
+			}
+			ul:hover li:nth-child(1){
+				background: pink;
+				transform: rotateZ(-90deg);
+			}
+			ul:hover li:nth-child(2){
+				background: yellow;
+				transform: rotateZ(-75deg);
+			}
+			ul:hover li:nth-child(3){
+				background: purple;
+				transform: rotateZ(-60deg);
+			}
+			ul:hover li:nth-child(4){
+				background: blue;
+				transform: rotateZ(-45deg);
+			}
+			ul:hover li:nth-child(5){
+				background: orange;
+				transform: rotateZ(-30deg);
+			}
+			ul:hover li:nth-child(6){
+				background: yellowgreen;
+				transform: rotateZ(-15deg);
+			}
+			ul:hover li:nth-child(13){
+				background: pink;
+				transform: rotateZ(90deg);
+			}
+			ul:hover li:nth-child(12){
+				background: yellow;
+				transform: rotateZ(75deg);
+			}
+			ul:hover li:nth-child(11){
+				background: purple;
+				transform: rotateZ(60deg);
+			}
+			ul:hover li:nth-child(10){
+				background: blue;
+				transform: rotateZ(45deg);
+			}
+			ul:hover li:nth-child(9){
+				background: orange;
+				transform: rotateZ(30deg);
+			}
+			ul:hover li:nth-child(8){
+				background: yellowgreen;
+				transform: rotateZ(15deg);
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+			<li>10</li>
+			<li>11</li>
+			<li>12</li>
+			<li>13</li>
+		</ul>
+	</body>
+</html>
